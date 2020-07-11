@@ -1,12 +1,36 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    {
+      "id": 1,
+      "name": {
+        "firstName": "Ram",
+        "lastName": "Mohan"
+      },
+      "userName": "mohanram",
+      "password": "veryHardPassword"
+    },
+    {
+      "id": 2,
+      "name": {
+        "firstName": "Trevor",
+        "lastName": "Scott"
+      },
+      "userName": "scotty",
+      "password": "youCantImagine!!"
+    },
+    {
+      "id": 3,
+      "name": {
+        "firstName": "Rustov",
+        "lastName": "Gregyarkov"
+      },
+      "userName": "theRussianGuy",
+      "password": "verySimple123"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "articles": [
+    { "id": 1, "body": "some comment", "postId": 1, "userId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1, "userId": 3 }
   ],
   "profile": {
     "name": "typicode"
